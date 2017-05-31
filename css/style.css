@@ -8,7 +8,7 @@
 
 *:not(body):not(html) {
   box-sizing: border-box;
-  border:1px dashed #000;
+  /*border:1px dashed #000;*/
 }
 
 /* End for testing */
@@ -18,8 +18,25 @@
 body {
   background: lightpink;
   border: 3px solid purple;
+  width: 100vw;
+  height: 100vh;
 }
 
+.nav {
+  border: 2px dashed blue;
+  width: 200px;
+  /*height: 100px;*/
+  padding: 5px;
+}
+
+.logo {
+}
+
+.link {
+  border: 1px solid green;
+  width: 31%;
+  display: inline-block;
+}
 
 /* media queries */
 
