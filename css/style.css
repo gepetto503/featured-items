@@ -1,0 +1,39 @@
+/* For testing only */
+
+* {
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*:not(body):not(html) {
+  box-sizing: border-box;
+  border:1px dashed #000;
+}
+
+/* End for testing */
+
+/*mobile*/
+
+body {
+  background: lightpink;
+  border: 3px solid purple;
+}
+
+
+/* media queries */
+
+/*tablet*/
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+/*laptop*/
+@media screen and (min-width: 1025px) {
+  body {
+    background-color: lightyellow;
+  }
+
+}
