@@ -24,18 +24,28 @@ body {
 
 .nav {
   border: 2px dashed blue;
-  width: 200px;
-  /*height: 100px;*/
+  width: 60%;
   padding: 5px;
-}
-
-.logo {
+  overflow: auto;
 }
 
 .link {
   border: 1px solid green;
-  width: 31%;
+  width: 28%;
+  /*float: left;*/
   display: inline-block;
+  margin: 1%;
+}
+
+.featured-headlines {
+  border: 1px solid red;
+  width: 90%;
+  padding: 5px;
+}
+
+.headline {
+  border: 1px dashed grey;
+
 }
 
 /* media queries */
